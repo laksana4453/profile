@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".analyzeGraph">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/spectrum"></ImageView>
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_below="@+id/ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/addImage"
+                android:layout_margin="20dp"
+                android:background="@drawable/camera_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="PickImage"
+                android:src="@drawable/camera3"></ImageButton>
+        <ImageButton
+                android:id="@+id/bt_analyze"
+                android:layout_margin="20dp"
+                android:background="@drawable/camera_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="analyzeImage"
+                android:src="@drawable/analysis"></ImageButton>
+        <ImageButton
+            android:id="@+id/bt_setting"
+            android:layout_margin="20dp"
+            android:background="@drawable/camera_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="setting_mod"
+            android:src="@drawable/support"></ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/peak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="0"></TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:id="@+id/n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="0"></TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:id="@+id/peak2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="0"></TextView>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_below="@+id/line2"
+         android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart1"
+                android:layout_width="400dp"
+                android:layout_height="300dp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+

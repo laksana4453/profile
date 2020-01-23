@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SettingActivity">
+    <TextView
+        android:textSize="22dp"
+        android:padding="10dp"
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recommend">
+    </TextView>
+    <ImageView
+        android:id="@+id/ImageSetting"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/spectrum2">
+    </ImageView>
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/line1"
+        android:layout_below="@+id/ImageSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginRight="30dp"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order_n">
+        </TextView>
+        <ImageButton
+            android:background="@drawable/add_minus_bt"
+            android:layout_marginTop="16dp"
+            android:id="@+id/minus_bt"
+            android:src="@drawable/minus"
+            android:layout_width="wrap_content"
+            android:onClick="minus_n"
+            android:layout_height="wrap_content">
+        </ImageButton>
+        <TextView
+            android:id="@+id/number_n"
+            android:textSize="22dp"
+            android:padding="20dp"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <ImageButton
+            android:onClick="add_n"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/add_minus_bt"
+            android:id="@+id/add_bt"
+            android:src="@drawable/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageButton>
+<!--        <EditText-->
+<!--            android:textColor="@color/white"-->
+<!--            android:background="@color/dark_blue"-->
+<!--            android:id="@+id/edit_n"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--        </EditText>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:onClick="PickImage"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/setting_button"
+            android:src="@drawable/camera2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+        <ImageButton
+            android:onClick="send_parameter"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/setting_button"
+            android:src="@drawable/setting"
+            android:layout_below="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

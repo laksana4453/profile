@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LowCostSpectrum</string>
+    <string name="title">Low Cost Spectrum</string>
+    <string name="recommend"> Please take or get a spectrum photo for setting (no cuvette) </string>
+    <string name="order_n"> the order of diffraction (n) </string>
+
+</resources>
