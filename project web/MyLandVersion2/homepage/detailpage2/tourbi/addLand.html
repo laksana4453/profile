@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>travel</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- font awesome CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- boxaddimage -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="normalText-white" href="index.html"> MyLand </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu_icon"><i class="fas fa-bars"></i></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="contact.html"><img style="width: 30px;height: 30px;"
+                                            src="img/user.png"></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- banner part start-->
+    <section class="bar-addpage">
+    </section>
+    <!-- banner part start-->
+
+    <div class="container-boxAddImg">
+        <fieldset class="form-group">
+            <div>
+                <a href="javascript:void(0)" onclick="$('#pro-image').click()"><img id="uploadImg"
+                        src="img/iconLoadImage.png"></a>
+            </div>
+            <input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control" multiple>
+        </fieldset>
+        <div class="preview-images-zone">
+
+        </div>
+        <div class="row" id="detail">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="exampleInputName">ชื่อ</label>
+                    <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp"
+                        placeholder="ชื่อที่จะแสดงในหน้าแรก">
+                </div>
+            </div>
+        </div>
+        <div class="row" id="detail">
+                <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="size">ขนาดที่ดิน</label>
+                            <input type="number" class="form-control" id="size" placeholder="ระบุราคา" value="0">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group" id="typesize-d" >
+                            
+                            <select class="form-control" id="typesize">
+                               
+                                <option value="square_yard">ตารางวา</option>
+                                <option value="farm">ไร่</option>
+                               
+                            </select>
+                        </div>
+    
+                    </div>
+                    <div class="col-sm-4">
+                            <div class="form-group">
+                                    <label for="face">หน้ากว้าง</label>
+                                    <input type="number" class="form-control" id="face" placeholder="ระบุราคา" value="0">
+                            </div>
+                    </div>
+        </div>
+        <div class="row" id="detail">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="exampleInputLocaion">ที่ตั้ง</label>
+                    <input type="locaion" class="form-control" id="exampleInputLocaion"
+                        placeholder="หมู่ บ้านเลขที่่ ตำบล อำเภอ จังหวัด ถนน รหัสไปรษณี">
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="detail">
+            <div class="col-sm-8">
+                <div class="form-group">
+                    <label for="exampleInputPrice1">ราคาที่ดิน</label>
+                    <input type="locaion" class="form-control" id="exampleInputPrice1" placeholder="ระบุราคา" value="0">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="form-group" id="selectedprice">
+                    <p>ไร่</p>
+                 
+                </div>
+
+            </div>
+        </div>
+
+        <div id="addTypePrice1" >
+
+            <div class="row" id="detail">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="exampleInputPrice2">ราคาที่ดิน</label>
+                        <input type="locaion" class="form-control" id="exampleInputPrice2" placeholder="ระบุราคา" value="0">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group" id="selectedprice2">
+                        <p>ตารางวา</p>
+                        <!-- <select class="form-control" id="control2">
+                           
+                            <option value="square_yard">ตารางวา</option>
+                           
+                        </select> -->
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="addTypePrice2">
+            <div class="row" id="detail">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="exampleInputPrice3">ราคาที่ดิน</label>
+                        <input type="locaion" class="form-control" id="exampleInputPrice3" placeholder="ระบุราคา" value="0">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group" id="selectedprice3">
+                        <p>ทั้งหมด</p>
+                        <!-- <select class="form-control" id="control3">                        
+                            <option value="all">ทั้งหมด</option>
+                        </select> -->
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+       
+
+        <div class="row" id="detail">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="landFor">ที่ดินนี้เหมาะสำหรับ</label>
+                    <input type="name" class="form-control" id="landFor" placeholder="ที่ดินนี้เหมาะสำหรับ...">
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="detail">
+            <div class="col-sm">
+                <label for="detailForm">รายละเอียดเกี่ยวกับที่ดินนี้</label>
+                <textarea class="form-control" id="detailForm" rows="3"></textarea>
+            </div>
+        </div>
+
+        <div class="row" id="detail">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="seaLavel">สูงจากระดับน้ำทะเล</label>
+                    <input type="locaion" class="form-control" id="seaLavel" placeholder="ระบุราคา" value="0">
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="detail">
+            <div class="col-sm">
+                <label for="transfer_terms">เงื่อนไขในการโอน</label>
+                <textarea class="form-control" id="transfer_terms" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="row" id="detail">
+            <div class="col-sm">
+                <label for="public_utilities">สาธารณูปโภคพื้นฐาน</label>
+            </div>
+
+        </div>
+        <div class="row" id="detail">
+            <div class="col-sm-1">
+                <img id="building" class="public_icon" src="img/building.png" onclick="clickBuliding(this.alt)"
+                    alt="building">
+            </div>
+            <div class="col-sm-1">
+                <img id="light_bulb" class="public_icon" src="img/light-bulb.png" onclick="clickLight_bulb(this.alt)"
+                    alt="light_bulb">
+            </div>
+            <div class="col-sm-1">
+                <img id="drop" class="public_icon" src="img/drop.png" onclick="clickDrop(this.alt)" alt="drop">
+            </div>
+            <div class="col-sm-9">
+
+            </div>
+
+        </div>
+        <!-- 
+        <div class="row" id="detail">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="lat">ละติจูด</label>
+                    <input type="name" class="form-control" id="lat"
+                        placeholder="กำหนดละติจูดและลองติจูดเพื่อแสดงแผนที่">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="lng">ลองติจูด</label>
+                    <input type="name" class="form-control" id="lng"
+                        placeholder="กำหนดละติจูดและลองติจูดเพื่อแสดงแผนที่">
+                </div>
+            </div>
+            <div class="col-sm">
+                <button id="define_map">ค้นหาบนแผนที่</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p id="lattext">16.4741213</p>
+            </div>
+            <div class="col-sm">
+                <p id="lngtext">102.8256157</p>
+            </div>
+        </div>
+         -->
+        <div class="row" id="detail">
+            <div id="map"></div>
+        </div>
+        <div class="row">
+            </br>
+            <style>
+                #uploader {
+                    -webkit-appearance: none;
+                    appearance: none;
+                    width: 50%;
+                    margin-top: 100px;
+                }
+            </style>
+
+            <div class="col-sm">
+                <progress value="0" max="100" id="uploader">0%</progress>
+                <form id="file-catcher">
+                    <button id="save" type="submit" >บันทึก</button>
+                </form>
+                <div id="textJson"></div>
+                <!-- บันทึก: <input type="checkbox" id="myCheck"  onclick="uplodeImageFirebase()"> -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!--::footer_part start::-->
+
+    <footer class="footer_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="copyright_text">
+                        <P>
+
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            template is made with <i class="ti-heart" aria-hidden="true"></i> by <a
+                                href="https://colorlib.com" target="_blank">Colorlib</a>
+
+                        </P>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer_icon social_icon">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
+                            <li><a href="#" class="single_social_icon"><i class="fab fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/overlay_2.png" alt="#" class="footer_overlay">
+    </footer>
+
+    <!-- ::footer_part end:: -->
+
+    <!-- jquery plugins here-->
+    <!-- jquery -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <!-- box add img -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/addBox.js"></script>
+    <!-- define area land -->
+    <script>
+        var kku = {
+            lat: 16.4741213,
+            lng: 102.8256157
+        };
+
+        var drawingManager;
+        var controlUI;
+        var controlText;
+        var countButton = 0;
+        //ปุ่มเพิ่่ม-บันทึก
+        function addButton(controlDiv, map) {
+            // Set CSS for the control border.
+            controlUI = document.createElement("div");
+            controlUI.style.backgroundColor = "#101661";
+            controlUI.style.border = "2px solid #101661";
+            controlUI.style.borderRadius = "3px";
+            controlUI.style.boxShadow = "0 2px 6px rgba(0,0,0,.3)";
+            controlUI.style.cursor = "pointer";
+            controlUI.style.marginBottom = "22px";
+            controlUI.style.marginTop = "10px";
+            controlUI.style.textAlign = "center";
+            controlUI.title = "Click to recenter the map";
+            controlDiv.appendChild(controlUI);
+
+            // Set CSS for the control interior.
+            controlText = document.createElement("div");
+            controlText.style.color = "#ffffff";
+            controlText.style.fontFamily = "Roboto,Arial,sans-serif";
+            controlText.style.fontSize = "16px";
+            controlText.style.lineHeight = "38px";
+            controlText.style.paddingLeft = "10px";
+            controlText.style.paddingRight = "10px";
+
+            controlText.innerHTML = "+ เพิ่มพื้นที่";
+            controlUI.appendChild(controlText);
+
+            drawingManager = new google.maps.drawing.DrawingManager({
+                drawingMode: google.maps.drawing.OverlayType.POLYGON,
+                drawingControl: false,
+                polygonOptions: {
+                    editable: true,
+                    strokeColor: "red",
+                    strokeOpacity: 1.0,
+                    strokeWeight: 3,
+                    fillColor: "red"
+                }
+            });
+
+            // Setup the click event listeners: simply set the map to Chicago.
+            controlUI.addEventListener("click", function () {
+                controlText.innerHTML = "บันทึก";
+                drawingManager.setMap(map);
+            });
+        }
+        // ปักหมุดเสร็จแล้ว
+        function onPolygonComplete(polygon) {
+            controlUI.addEventListener("click", function () {
+                console.log("count" + countButton);
+                //save
+                if (countButton % 2 === 0) {
+                    controlText.innerHTML = "แก้ไข";
+                    polygon.setEditable(false);
+                    polygon.setOptions({
+                        fillColor: 'blue',
+                        strokeColor: 'blue'
+                    });
+                }
+                //edit 
+                else {
+                    controlText.innerHTML = "บันทึก";
+                    polygon.setEditable(true);
+                    polygon.setOptions({
+                        fillColor: 'orange',
+                        strokeColor: 'orange'
+                    });
+                    var polygonBounds = polygon.getPath();
+                    var bounds = [];
+                    for (var i = 0; i < polygonBounds.length; i++) {
+                        var point = {
+                            lat: polygonBounds.getAt(i).lat(),
+                            lng: polygonBounds.getAt(i).lng()
+                        };
+                        bounds.push(point);
+                    }
+                }
+                countButton++;
+            });
+        }
+        function initMap() {
+
+            console.log(kku);
+            var map = new google.maps.Map(document.getElementById("map"), {
+                center: kku,
+                zoom: 16,
+                mapTypeControl: false,
+                fullscreenControl: false,
+                streetViewControl: false,
+                mapTypeId: "satellite"
+            });
+
+            var centerControlDiv = document.createElement("div");
+            var centerControl = new addButton(centerControlDiv, map);
+
+            centerControlDiv.index = 1;
+            map.controls[google.maps.ControlPosition.TOP_CENTER].push(
+                centerControlDiv
+            );
+
+            google.maps.event.addListener(
+                drawingManager,
+                "polygoncomplete",
+                function (polygon) {
+                    drawingManager.setDrawingMode(
+                        google.maps.drawing.OverlayType.FALSE
+                    );
+                    onPolygonComplete(polygon);
+                }
+            );
+        }
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6LBk2sgJ_63Fqb-1grSyURJ8KDrWfXGE&libraries=drawing&callback=initMap"
+        async defer></script>
+
+    <!-- add type price -->
+  
+    <script>
+
+        function clickBuliding(alt) {
+            var building = document.getElementById("building");
+            console.log(alt);
+            if (alt == "building") {
+                building.src = "img/building_click.png"
+                building.style.backgroundColor = "#017C67"
+                building.alt = "building_click";
+            } else if (alt == "building_click") {
+                building.src = "img/building.png"
+                building.style.backgroundColor = "#fff"
+                building.alt = "building";
+            }
+        }
+        function clickLight_bulb(alt) {
+            var light_bulb = document.getElementById("light_bulb");
+            if (alt == "light_bulb") {
+                light_bulb.src = "img/light-bulb_click.png"
+                light_bulb.style.backgroundColor = "#017C67"
+                light_bulb.alt = "light_bulb_click";
+            } else if (alt == "light_bulb_click") {
+                light_bulb.src = "img/light-bulb.png"
+                light_bulb.style.backgroundColor = "#fff"
+                light_bulb.alt = "light_bulb";
+            }
+        }
+        function clickDrop(alt) {
+            var drop = document.getElementById("drop");
+            if (alt == "drop") {
+                drop.src = "img/drop_click.png"
+                drop.style.backgroundColor = "#017C67"
+                drop.alt = "drop_click";
+            } else if (alt == "drop_click") {
+                drop.src = "img/drop.png"
+                drop.style.backgroundColor = "#fff"
+                drop.alt = "drop";
+            }
+        }
+
+
+    </script>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDETKKSIdrlQN1OOjqNg0bNh296Jic3QX8",
+            authDomain: "storageimage-92238.firebaseapp.com",
+            databaseURL: "https://storageimage-92238.firebaseio.com",
+            projectId: "storageimage-92238",
+            storageBucket: "storageimage-92238.appspot.com",
+            messagingSenderId: "513502816790",
+            appId: "1:513502816790:web:c7ffa3c3be1c58d4212337",
+            measurementId: "G-5RMSGP0EVV"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    
+   
+</body>
+
+</html>

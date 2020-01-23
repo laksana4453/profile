@@ -1,0 +1,58 @@
+{
+    "area": {
+        "size": "231",
+        "type": "ตรว",
+        "wide_face": 16
+    },
+    "price": {
+        "square_yard": 0,
+        "rai": 0,
+        "all": 50000000
+    },
+    "public_utilities": {
+        "building": true,
+        "water": false,
+        "electric": false
+    },
+    "img_link": [
+        "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/01-01.jpg?alt=media&token=ef721c65-4940-4a27-ac1d-3ba205b3a2ae",
+        "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/01-02.jpg?alt=media&token=eab592d8-d2c2-49a6-b1f9-43e966cb49e3",
+        "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/01-03.jpg?alt=media&token=a0959a3c-4986-4916-bbb2-b02da72aecdd",
+        "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/01-04.jpg?alt=media&token=b0bf7a80-29e7-4336-ac30-c0c48c42863b"
+    ],
+    "_id": "5da2eedca3e6ea2ea83c5248",
+    "land_name": "ที่ดินพร้อมสิ่งปลูกสร้าง ติดถนนมนัส กลางเมืองโคราช",
+    "address": "187-203 ถนน มนัส ตำบลในเมือง อำเภอเมืองนครราชสีมา นครราชสีมา 30000",
+    "land_for": "เหมาะพัฒนาอสังหาริมทรัพย์ อื่นๆ",
+    "details": "ขายที่ดินพร้อมสิ่งปลูกสร้าง ติดถนนมนัส กลางเมืองโคราช เนื้อที่ 231 ตรว. พร้อมบ้าน อาคาร อื่นๆ ที่ดินหน้ากว้าง 16 เมตร ขายรวมสิ่งปลูกสร้าง ราคา 50 ล้าน ต่อรองได้ สนใจติดต่อ 093-3816858 LINE ID chai6858",
+    "sea_level": 0,
+    "transfer_terms": "something",
+    "location": [
+        {
+            "_id": "5da2eedca3e6ea2ea83c524c",
+            "pointer": 0,
+            "lat": 14.977673205090555,
+            "lng": 102.10615354822801
+        },
+        {
+            "_id": "5da2eedca3e6ea2ea83c524b",
+            "pointer": 1,
+            "lat": 14.977668022919943,
+            "lng": 102.1064754133098
+        },
+        {
+            "_id": "5da2eedca3e6ea2ea83c524a",
+            "pointer": 2,
+            "lat": 14.977320817202838,
+            "lng": 102.10650759981797
+        },
+        {
+            "_id": "5da2eedca3e6ea2ea83c5249",
+            "pointer": 3,
+            "lat": 14.977300088485494,
+            "lng": 102.1062232856624
+        }
+    ],
+    "__v": 0,
+    "approved": true
+}

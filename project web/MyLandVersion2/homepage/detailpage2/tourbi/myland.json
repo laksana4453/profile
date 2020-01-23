@@ -1,0 +1,269 @@
+
+{"myland":[
+    {
+        "area": {
+            "size": "231",
+            "type": "ตรว",
+            "wide_face": 16
+        },
+        "price": {
+            "square_yard": 0,
+            "rai": 0,
+            "all": 50000000
+        },
+        "public_utilities": {
+            "building": true,
+            "water": false,
+            "electric": false
+        },
+        "img_link": [
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/01-01.jpg?alt=media&token=ef721c65-4940-4a27-ac1d-3ba205b3a2ae",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/01-02.jpg?alt=media&token=eab592d8-d2c2-49a6-b1f9-43e966cb49e3",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/01-03.jpg?alt=media&token=a0959a3c-4986-4916-bbb2-b02da72aecdd",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/01-04.jpg?alt=media&token=b0bf7a80-29e7-4336-ac30-c0c48c42863b"
+        ],
+        "_id": "5da2eedca3e6ea2ea83c5248",
+        "land_name": "ที่ดินพร้อมสิ่งปลูกสร้าง ติดถนนมนัส กลางเมืองโคราช",
+        "address": "187-203 ถนน มนัส ตำบลในเมือง อำเภอเมืองนครราชสีมา นครราชสีมา 30000",
+        "land_for": "เหมาะพัฒนาอสังหาริมทรัพย์ อื่นๆ",
+        "details": "ขายที่ดินพร้อมสิ่งปลูกสร้าง ติดถนนมนัส กลางเมืองโคราช เนื้อที่ 231 ตรว. พร้อมบ้าน อาคาร อื่นๆ ที่ดินหน้ากว้าง 16 เมตร ขายรวมสิ่งปลูกสร้าง ราคา 50 ล้าน ต่อรองได้ สนใจติดต่อ 093-3816858 LINE ID chai6858",
+        "sea_level": 0,
+        "transfer_terms": "something",
+        "location": [
+            {
+                "_id": "5da2eedca3e6ea2ea83c524c",
+                "pointer": 0,
+                "lat": 14.977673205090555,
+                "lng": 102.10615354822801
+            },
+            {
+                "_id": "5da2eedca3e6ea2ea83c524b",
+                "pointer": 1,
+                "lat": 14.977668022919943,
+                "lng": 102.1064754133098
+            },
+            {
+                "_id": "5da2eedca3e6ea2ea83c524a",
+                "pointer": 2,
+                "lat": 14.977320817202838,
+                "lng": 102.10650759981797
+            },
+            {
+                "_id": "5da2eedca3e6ea2ea83c5249",
+                "pointer": 3,
+                "lat": 14.977300088485494,
+                "lng": 102.1062232856624
+            }
+        ],
+        "__v": 0,
+        "approved": true
+    },
+    {
+        "area": {
+            "size": "19-1-26",
+            "type": "ไร่",
+            "wide_face": 120
+        },
+        "price": {
+            "square_yard": 0,
+            "rai": 1800000,
+            "all": 34800000
+        },
+        "public_utilities": {
+            "building": false,
+            "water": false,
+            "electric": false
+        },
+        "img_link": [
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/02-01.jpg?alt=media&token=a47cf911-083d-436c-83ac-411da7911709",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/02-02.jpg?alt=media&token=6f812729-a0d6-4ec8-8548-6b89a4e9b0f5",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/02-03.jpg?alt=media&token=943068ea-2090-4647-af0e-f4c3664d748e",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/02-04.jpg?alt=media&token=4bd05d99-475f-40e9-aeb8-edd5fc28ca31"
+        ],
+        "_id": "5da2f9e3d094262c0cb5fede",
+        "land_name": "ที่ดินเปล่าหนองหาน อุดรธานี ติดถนน4 เลน",
+        "address": "อ.บัวลาย จ.นครราชสีมา ใกล้แยกสีดา ต.หนองหว้า กม.241",
+        "details": "ขายที่ดินเปล่าหนองหาน อุดรธานี ติดถนน4 เลน (อุดร-สกลนคร)กม.29 ขาเข้าเมืองอุดร ที่ดินเอกสาร น.ส.3ก เนื้อที่ 19-1-26ไร่ หน้ากว้าง 120 เมตร ลึก 225 เมตร ใกล้ปั้มน้ำมัน PT เปิดราคาไร่ละ 1.8 ล้าน ขายยกแปลง 34.8 ล้าน สนใจที่ดินคุยรายละเอียด ติดต่อ 093-3816858 LINE ID chai6858",
+        "location": [
+            {
+                "_id": "5da2f9e3d094262c0cb5fee7",
+                "pointer": 0,
+                "lat": 17.363683606343663,
+                "lng": 103.06256429873645
+            },
+            {
+                "_id": "5da2f9e3d094262c0cb5fee6",
+                "pointer": 1,
+                "lat": 17.36359144704429,
+                "lng": 103.06467787944018
+            },
+            {
+                "_id": "5da2f9e3d094262c0cb5fee5",
+                "pointer": 2,
+                "lat": 17.362521371785757,
+                "lng": 103.0645544978255
+            },
+            {
+                "_id": "5da2f9e3d094262c0cb5fee4",
+                "pointer": 3,
+                "lat": 17.362459931868305,
+                "lng": 103.06409852229297
+            },
+            {
+                "_id": "5da2f9e3d094262c0cb5fee3",
+                "pointer": 4,
+                "lat": 17.362209051991584,
+                "lng": 103.06407706462085
+            },
+            {
+                "_id": "5da2f9e3d094262c0cb5fee2",
+                "pointer": 5,
+                "lat": 17.362224411993918,
+                "lng": 103.06381957255542
+            },
+            {
+                "_id": "5da2f9e3d094262c0cb5fee1",
+                "pointer": 6,
+                "lat": 17.362173211981165,
+                "lng": 103.06364791117846
+            },
+            {
+                "_id": "5da2f9e3d094262c0cb5fee0",
+                "pointer": 7,
+                "lat": 17.361282329469457,
+                "lng": 103.06356744490802
+            },
+            {
+                "_id": "5da2f9e3d094262c0cb5fedf",
+                "pointer": 8,
+                "lat": 17.36123112919349,
+                "lng": 103.06287543498217
+            }
+        ],
+        "__v": 0,
+        "approved": true
+    },
+    {
+        "area": {
+            "size": "2-3-84",
+            "type": "ไร่",
+            "wide_face": 24
+        },
+        "price": {
+            "square_yard": 35000,
+            "rai": 14000000,
+            "all": 0
+        },
+        "public_utilities": {
+            "building": false,
+            "water": false,
+            "electric": false
+        },
+        "img_link": [
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/03-01.jpg?alt=media&token=7826a262-3477-4726-8986-531f0650a451",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/03-02.jpg?alt=media&token=2fec4a44-e9d8-4ea5-bfeb-bea1ccedb054",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/03-03.jpg?alt=media&token=a85f3e97-e1a1-4e70-b291-e4180d5c4b75",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/03-04.jpg?alt=media&token=6eb9e359-3ef2-4ed9-b770-7ef4b3e62253"
+        ],
+        "_id": "5da3077fba4c1048b4e96ea3",
+        "land_name": "ที่ดินติดถนนมิตรภาพ โคกกรวด ใกล้ รพ.เทพรัตน์",
+        "address": "ตำบล โคกกรวด อำเภอเมืองนครราชสีมา นครราชสีมา",
+        "details": "ขายที่ดินติดถนนมิตรภาพ โคกกรวด ใกล้ รพ.เทพรัตน์ เนื้อที่ 2-3-84ไร่ หน้ากว้าง 24เมตร ด้านข้างติดซอย 40เมตร ที่ดินอยู่ฝั่งขาเข้ากรุงเทพ ใกล้โรงงานราชสีมาผลิตเหล็ก,ใกล้สำนัก AIS,ใกล้โรงงาน PCS เยื้องทางแยกไปขามทะเลสอ ราคา 35,000/ตรว.ไร่ละ 14 ล้าน (ขายยกแปลง) สนใจที่ดินคุยรายละเอียด ติดต่อ 093-3816858 LINE ID chai6858",
+        "location": [
+            {
+                "_id": "5da3077fba4c1048b4e96ea9",
+                "pointer": 0,
+                "lat": 14.922387371700713,
+                "lng": 101.9561363708101
+            },
+            {
+                "_id": "5da3077fba4c1048b4e96ea8",
+                "pointer": 1,
+                "lat": 14.92165390436436,
+                "lng": 101.95641532054765
+            },
+            {
+                "_id": "5da3077fba4c1048b4e96ea7",
+                "pointer": 2,
+                "lat": 14.922071177608137,
+                "lng": 101.9573621403299
+            },
+            {
+                "_id": "5da3077fba4c1048b4e96ea6",
+                "pointer": 3,
+                "lat": 14.922314802605827,
+                "lng": 101.95711537710054
+            },
+            {
+                "_id": "5da3077fba4c1048b4e96ea5",
+                "pointer": 4,
+                "lat": 14.922063402337702,
+                "lng": 101.95648774019105
+            },
+            {
+                "_id": "5da3077fba4c1048b4e96ea4",
+                "pointer": 5,
+                "lat": 14.922457349019016,
+                "lng": 101.9563348542772
+            }
+        ],
+        "__v": 0,
+        "approved": true
+    },
+    {
+        "area": {
+            "size": "19-1-63",
+            "type": "ไร่",
+            "wide_face": 75
+        },
+        "price": {
+            "square_yard": 0,
+            "rai": 20000000,
+            "all": 0
+        },
+        "public_utilities": {
+            "building": false,
+            "water": false,
+            "electric": false
+        },
+        "img_link": [
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/04-01.jpg?alt=media&token=f965590b-855d-44e3-917a-b543715a3c4d",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/04-02.jpg?alt=media&token=dd3ddb53-f426-470e-9a48-3ae98f96a9c5",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/04-03.jpg?alt=media&token=42aca713-7380-4b4e-906f-4a383ab4ddeb",
+            "https://firebasestorage.googleapis.com/v0/b/myland-xml.appspot.com/o/04-04.jpg?alt=media&token=4179064b-474b-4116-bed2-825c17935334"
+        ],
+        "_id": "5da3094eeb9a2e4bbc5c7e38",
+        "land_name": "ที่ดินเปล่าติดถนนราชสีมา-ปักธงชัย(304) กม.297 ในเมืองโคราช",
+        "address": "ตำบล ปรุใหญ่ อำเภอเมืองนครราชสีมา นครราชสีมา 30000",
+        "land_for": "เหมาะพัฒนาอสังหาริมทรัพย์ อื่นๆ",
+        "details": "ที่ดินเปล่าติดถนนราชสีมา-ปักธงชัย(304) กม.297 ในเมืองโคราช เนื้อที่ 19-1-63ไร่ ที่ดินหน้ากว้าง 75เมตร ลึก 388เมตร ที่ดินติดถนน 3 ด้าน ติดโรงแรมออร์คิด ใกล้ห้างบิ๊กซีสามแยกปัก ทำเลเหมาะพัฒนาอสังหาริมทรัพย์ อื่นๆ ที่ดินอยู่ใกล้เซฟวัน ใกล้สนามกีฬา 80พรรษา เปิดราคาขายไร่ละ 20 ล้าน สนใจคุยรายละเอียดติดต่อ 093-3816858 LINE ID chai6858",
+        "location": [
+            {
+                "_id": "5da3094eeb9a2e4bbc5c7e3c",
+                "pointer": 0,
+                "lat": 14.944655678968742,
+                "lng": 102.05400847807914
+            },
+            {
+                "_id": "5da3094eeb9a2e4bbc5c7e3b",
+                "pointer": 1,
+                "lat": 14.944614215215731,
+                "lng": 102.05798887625724
+            },
+            {
+                "_id": "5da3094eeb9a2e4bbc5c7e3a",
+                "pointer": 2,
+                "lat": 14.94386786629204,
+                "lng": 102.05804252043754
+            },
+            {
+                "_id": "5da3094eeb9a2e4bbc5c7e39",
+                "pointer": 3,
+                "lat": 14.943919696162265,
+                "lng": 102.05404066458732
+            }
+        ],
+        "__v": 0,
+        "approved": true
+    }
+]}

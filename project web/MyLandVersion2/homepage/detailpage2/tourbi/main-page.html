@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>travel</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- font awesome CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style3.css">
+
+    <!-- boxaddimage -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="normalText-white" href="index.html"> MyLand </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="menu_icon"><i class="fas fa-bars"></i></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html"><img style="width: 20px;height: 20px;"
+                                            src="img/user.png"></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- banner part start-->
+    <section class="bar-addpage">
+    </section>
+    <!-- banner part start-->
+    <div class="container" style="background-color: rgba(185, 181, 178, 0.199);margin-top: 40px;">
+        <br></br>
+        <div class="row">
+            <div class="col-sm">
+                <p class="largeText">ค้นหาแบบละเอียด</p>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="exampleInputOwner">จังหวัด</label>
+                    <select class="form-control" id="province">
+                            <option>- กรุณาเลือกจังหวัด -</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="exampleInputOwner">อำเภอ</label>
+                    <select class="form-control" id="amphur">
+                            <option>- กรุณาเลือกอำเภอ -</option>
+                        </select>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="exampleInputOwner">ตำบล</label>
+                    <select class="form-control" id="district">
+                            <option>- กรุณาเลือกตำบล -</option>
+                    </select>
+        
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <label>ราคา</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div slider id="slider-distance">
+                    <div>
+                        <div inverse-left style="width:70%;"></div>
+                        <div inverse-right style="width:70%;"></div>
+                        <div range style="left:30%;right:40%;"></div>
+                        <span thumb style="left:30%;"></span>
+                        <span thumb style="left:60%;"></span>
+                        <div sign style="left:30%;">
+                            <span id="value1">300000</span>
+                        </div>
+                        <div sign style="left:60%;">
+                            <span id="value2">600000</span>
+                        </div>
+                    </div>
+                    <input onchange="checkValueMin(this.value)" type="range" tabindex="0" value="30" max="100" min="0"
+                        step="1" oninput="
+                            this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                            var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                            var children = this.parentNode.childNodes[1].childNodes;
+                            children[1].style.width=value+'%';
+                            children[5].style.left=value+'%';
+                            children[7].style.left=value+'%';children[11].style.left=value+'%';
+                            if(this.value == 0){
+                                children[11].childNodes[1].innerHTML= 10000;
+                            }else{
+                                children[11].childNodes[1].innerHTML=this.value * 10000;
+                            }
+                           
+                            
+                            " />
+
+                    <input onchange="checkValueMax(this.value)" type="range" tabindex="0" value="60" max="100" min="0"
+                        step="1" oninput="
+                            this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                            var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                            var children = this.parentNode.childNodes[1].childNodes;
+                            children[3].style.width=(100-value)+'%';
+                            children[5].style.right=(100-value)+'%';
+                            children[9].style.left=value+'%';children[13].style.left=value+'%';
+                            if(this.value == 0){
+                                children[13].childNodes[1].innerHTML= 10000;
+                            }else{
+                                children[13].childNodes[1].innerHTML=this.value * 10000;
+                            }
+                            " />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="exampleInputOwner">ราคาน้อยสุด</label>
+                    <input type="owner" class="form-control" id="minPrice" value="300000">
+                </div>
+            </div>
+            <div class="col-sm-6">
+
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="exampleInputOwner">ราคามากสุด</label>
+                    <input type="owner" class="form-control" id="maxPrice" value="600000">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="landpresent">
+        <div class="container">
+            <button class="textTab" id="order">เรียงตาม</button>
+            <button class="tablink" onclick="openPage('Home', this, '#3cb371')" id="defaultOpen">ล่าสุด</button>
+            <button class="tablink" onclick="openPage('News', this, '#3cb371')">ราคา</button>
+
+
+            <div class="tabcontent" id="Home">
+                <div class="row" id="lasttab">
+
+                </div>
+
+
+
+
+            </div>
+            <div id="News" class="tabcontent">
+                <div class="row" id="pricetab">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+    <!--::footer_part start::-->
+
+
+
+    <!-- ::footer_part end:: -->
+
+    <!-- jquery plugins here-->
+    <!-- jquery -->
+    <script type="text/javascript" src="lib/jquery-3.4.1.js"></script>
+
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <script>
+        //slider-distance
+        var value_min = document.getElementById("value1");
+        var value_max = document.getElementById("value2");
+        var boxMin = document.getElementById("minPrice");
+        var boxMax = document.getElementById("maxPrice");
+
+        function checkValueMin(valueMin) {
+            if (valueMin == 0) {
+                boxMin.value = 10000;
+            } else {
+                boxMin.value = valueMin * 10000;
+            }
+        }
+        function checkValueMax(valueMax) {
+            if (valueMax == 0) {
+                boxMax.value = 10000;
+            } else {
+                boxMax.value = valueMax * 10000;
+            }
+        }
+
+
+    </script>
+    <script>
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+
+        }
+
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+
+    </script>
+    <script>
+
+        $(document).ready(function () {
+            $.getJSON('myland.json', function (jd, index) {
+                var myland = jd.myland;
+                console.log(myland[0].land_name);
+                console.log(myland[0].img_link[0]);
+                var lastTab = document.getElementById("lastTab");
+                var result = "";
+                for (i = 0; i < myland.length; i++) {
+
+                    result += "<div class='col-sm'><div class='card' style='width: 18rem;' id='" + myland[i]._id + "'><img class='card-img-top'" +
+                        "src='" + myland[i].img_link[0] + "' alt='Card image cap'>" +
+                        "<div class='card-body'><p class='card-text'>" + myland[i].land_name + "</p>" +
+                        "</div></div></div>";
+
+
+                }
+
+                $('#lasttab').html(result);
+                $('#pricetab').html(result);
+
+        
+
+            });
+        });
+
+    </script>
+     
+
+</body>
+
+</html>
